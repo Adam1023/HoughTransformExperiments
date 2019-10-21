@@ -11,7 +11,7 @@ imgElement.onload = function () {
     cv.cvtColor(src, src, cv.COLOR_RGBA2GRAY, 0);
     cv.Canny(src, src, 50, 200, 3);
     // You can try more different parameters
-    cv.HoughLinesP(src, lines, 1, Math.PI / 180, 2, 0, 0);
+    cv.HoughLinesP(src, lines, 1, Math.PI / 180, 2, 20, 10);
     // draw lines
     for (let i = 0; i < lines.rows; ++i) {
         let startPoint = new cv.Point(lines.data32S[i * 4], lines.data32S[i * 4 + 1]);
