@@ -1,0 +1,11 @@
+#photos_container {
+    width: 100%;
+    text-align: center;
+}
+
+#photo1 {
+    float: left;
+}
+#photo2 {
+    float: right;
+}
