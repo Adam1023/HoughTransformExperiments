@@ -1,2 +1,2 @@
 # HoughTransformExperiments
-This repository contains experiment(s) involving the Hough Transform used in ComputerVision.
+Experiment(s) involving the Hough Transform used in ComputerVision.
